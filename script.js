@@ -1,4 +1,4 @@
-const API_URL = "https://img-gallery-back.onrender.com/api/images";
+const API_URL = "https://r-gallery-back-1.onrender.com/api/images";
 
 let images = [];
 let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
@@ -275,3 +275,4 @@ document.addEventListener("click", (e) => {
 
 // Ensure menu is above gallery modal
 menu.style.zIndex = "3001"; // gallery modal is 2500
+
